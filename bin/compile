@@ -3,5 +3,5 @@ echo "-----> Installing mecab"
 mkdir $1/.heroku/src
 cd $1/.heroku/src
 wget https://dl.dropboxusercontent.com/u/149862/mecab_for_heroku.tar.gz
-tar -C $1/.heroku -xvfz mecab_for_heroku.tar.gz
+tar -C $1/.heroku -xvf mecab_for_heroku.tar.gz
 rm -rf $1/.heroku/src
