@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "-----&gt; Installing mecab"
+echo "-----> Installing mecab"
 cd $1
-wget https://dl.dropboxusercontent.com/u/149862/mecab.tar.gz
-tar xvfz mecab.tar.gz
+wget https://dl.dropboxusercontent.com/u/149862/mecab_for_heroku.tar.gz
+tar xvfz mecab_for_heroku.tar.gz
