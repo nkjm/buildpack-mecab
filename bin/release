@@ -2,5 +2,5 @@
 cat &lt;&lt;EOF
 ---
 config_vars:
-PATH: $PATH
+PATH: $PATH:/app/.heroku/mecab/bin
 EOF
