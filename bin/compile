@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+echo "-----&gt; Installing mecab"
+cd $1
+wget https://dl.dropboxusercontent.com/u/149862/mecab.zip
+unzip mecab.zip
