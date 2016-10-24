@@ -6,6 +6,6 @@ wget https://dl.dropboxusercontent.com/u/149862/buildpack-mecab.tar.gz
 tar -C $1/.heroku -xvf buildpack-mecab.tar.gz
 rm -rf $1/.heroku/src
 echo "-----> Adding .profile.d script"
-cat << EOF > $1/.profile.d/path.sh
+cat << EOF > $1/.profile.d/mecab_path.sh
 PATH=$PATH:/app/.heroku/mecab/bin
 EOF
